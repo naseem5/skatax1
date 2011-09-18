@@ -269,7 +269,7 @@ body { background:url(../images/mp-background-tile.jpg) center top; text-align:c
 
 #banner { margin-left:auto; margin-right:auto; position:relative; left:25px; z-index:5; }
 
-#site-logo {width:143px; height:59px; background:url(../images/logo.png);}
+#site-logo {width:364px; height:98px; background:url(../images/logo.png);}
 
 #logo { position:relative; z-index:10; top:-30px; left:7px; }
 	#logo-2 { background:url(../images/mp-sprite-master.png) no-repeat right -226px; padding-right:70px; height:133px; position:absolute; z-index:20; }
@@ -277,7 +277,7 @@ body { background:url(../images/mp-background-tile.jpg) center top; text-align:c
 	#logo a:link, #logo a:visited { font-family:'VollkornRegular', Geneva, sans-serif; color:#603913; text-decoration:none; color:#603913; letter-spacing:-1px; font-size:32px; white-space:nowrap; text-decoration:none; }
 	#logo a:hover { text-decoration:underline; }
 	#logo table, #logo td { border:0px; padding:0px; margin:0px; text-align:left; vertical-align:middle; height:120px; width:auto; }
-#site-title { margin-bottom:-12px; }
+#site-title { margin-bottom: 0px; }
 #site-description { margin-top:12px; }
 
 #attrition { color:#FFF; text-decoration:none; -moz-text-shadow:1px 1px #000; -webkit-text-shadow:1px 1px #000; text-shadow:1px 1px #000; font-size:12px; float:left; }
