@@ -1,6 +1,6 @@
 Skatax1::Application.routes.draw do
  # get "pages/home"
-  match '/' , :to => 'pages#home'
+  root :to => 'pages#home'
   #get "pages/about"
   match '/about', :to=>'pages#about'
   #get "pages/service"
