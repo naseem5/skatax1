@@ -7,6 +7,29 @@ Skatax1::Application.routes.draw do
   match '/service', :to => 'pages#service'
   #get "pages/contact"
   match '/contact', :to=> 'pages#contact'
+  #get "pages/generalsalestax"
+  match '/generalsalestax', :to => 'pages#generalsalestax'
+  #get "pages/federalexcieses"
+  match '/federalexcieses', :to =>'pages#federalexcieses'
+  #get "pages/corporateincometax"
+  match '/corporateincometax', :to=>'pages#corporateincometax' 
+  #get "pages/personaltaxation"
+  match '/personaltaxation', :to => 'pages#personaltaxation'
+  #get "pages/accountacyauditing"
+  match '/accountacyauditing', :to => 'pages#accountacyauditing'
+  #get "pages/budget"
+  match '/budget', :to => 'pages#budget'
+  #get "pages/customsbudget"
+  match '/customsbudget', :to => 'pages#customsbudget'
+  #get "pages/sfebudgetary"
+  match '/sfebudgetary', :to => 'pages#sfebudgetary'
+  #get "pages/directtax"
+  match '/directtax', :to =>'pages#directtax'
+  #get "pages/taxadvocacy"
+  match '/taxadvocacy' ,:to=>'pages#taxadvocacy'
+  #get "pages/links"
+  match '/links' ,:to => 'pages#links'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
